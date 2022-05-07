@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Marvel VS Capcom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="dist/css/app.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="img/MVC_logo.png" /></a>
+    </header>
+
+    <!-- <audio src="audio/seleheroes.wav" autoplay> -->
+    <audio src="audio/seleheroes.wav" autoplay>
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <section class="introduction">
+      <div class="con">
+        <h1>Marvel vs Capcom</h1>
+
+        <a href="?page=selecao" id="selectBtn"
+          ><img src="img/select_screeen/select.png"
+        /></a>
+      </div>
+    </section>
+
+    <audio src="audio/mvc_character_selec1.mp3" id="characterSelectAudio">
+      Seu navegador não suporta o elemento de áudio.
+    </audio>
+    <!--<audio src="audio/seleheroes.wav" autoplay>Your browser does not support the audio element.</audio>-->
+
+    <div class="selectContainer container">
+      <div class="upcontainer">
+        <section class="imgS">
+          <figure class="characterContainer">
+            <div id="img" class="gifContainer"></div>
+            <figcaption><p id="p">Alguma coisa</p></figcaption>
+          </figure>
+          <audio id="characterVoice" autoplay volume="0.3"></audio>
+          <audio id="coin" src="audio/select.mp3" autoplay volume="0.3"></audio>
+        </section>
+        <section class="selection">
+          <a href="#" class="characterSelect" data-character="chunli">
+            <img src="img/select_screeen/chunli_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="ryu">
+            <img src="img/select_screeen/ryu_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="zangief">
+            <img src="img/select_screeen/zangief_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="morrigan">
+            <img src="img/select_screeen/morrigan_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="captain_commando">
+            <img src="img/select_screeen/commando_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="megaman">
+            <img src="img/select_screeen/megaman_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="strider">
+            <img src="img/select_screeen/strider_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="spiderman">
+            <img src="img/select_screeen/spiderman_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="jin">
+            <img src="img/select_screeen/jin_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="captain_america">
+            <img src="img/select_screeen/america_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="venom">
+            <img src="img/select_screeen/venoom_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="hulk">
+            <img src="img/select_screeen/hulk_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="gambit">
+            <img src="img/select_screeen/gambit_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="warmachine">
+            <img src="img/select_screeen/warmachine_mini.png" />
+          </a>
+          <a href="#" class="characterSelect" data-character="wolverine">
+            <img src="img/select_screeen/wolverine_mini.png" />
+          </a>
+        </section>
+
+        <section class="face" class="characterSelect" id="face"></section>
+      </div>
+    </div>
+
+    <footer id="footer">
+          <div>
+            <div>
+              &copy; Copyright | Todos os direitos reservados <strong><span>vitorborqge</span></strong>
+            </div>
+            <div class="credits" id="currYear">
+             Feito por <a href="#">vitorborqge</a>
+            </div>
+          </div>
+    </footer>
+    
+
+    <script src="dist/js/app.js"></script>
+  </body>
+</html>
